@@ -1,0 +1,3698 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="lang-en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Amtaar</title>
+    <link rel="stylesheet" href="Style.css" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Cairo:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQ9Xy5G3B7lD1R4OxrFJtK2B8wY5FvHB7aF3Rz+0ZrYxZBB3WzZxY+P1zj4YkJIg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Marcellus&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <defs>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="instagram"
+          viewBox="0 0 15 15"
+        >
+          <path
+            fill="none"
+            stroke="currentColor"
+            d="M11 3.5h1M4.5.5h6a4 4 0 0 1 4 4v6a4 4 0 0 1-4 4h-6a4 4 0 0 1-4-4v-6a4 4 0 0 1 4-4Zm3 10a3 3 0 1 1 0-6a3 3 0 0 1 0 6Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="facebook"
+          viewBox="0 0 15 15"
+        >
+          <path
+            fill="none"
+            stroke="currentColor"
+            d="M7.5 14.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14Zm0 0v-8a2 2 0 0 1 2-2h.5m-5 4h5"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="twitter"
+          viewBox="0 0 15 15"
+        >
+          <path
+            fill="currentColor"
+            d="m14.478 1.5l.5-.033a.5.5 0 0 0-.871-.301l.371.334Zm-.498 2.959a.5.5 0 1 0-1 0h1Zm-6.49.082h-.5h.5Zm0 .959h.5h-.5Zm-6.99 7V12a.5.5 0 0 0-.278.916L.5 12.5Zm.998-11l.469-.175a.5.5 0 0 0-.916-.048l.447.223Zm3.994 9l.354.353a.5.5 0 0 0-.195-.827l-.159.474Zm7.224-8.027l-.37.336l.18.199l.265-.04l-.075-.495Zm1.264-.94c.051.778.003 1.25-.123 1.606c-.122.345-.336.629-.723 1l.692.722c.438-.42.776-.832.974-1.388c.193-.546.232-1.178.177-2.006l-.998.066Zm0 3.654V4.46h-1v.728h1Zm-6.99-.646V5.5h1v-.959h-1Zm0 .959V6h1v-.5h-1ZM10.525 1a3.539 3.539 0 0 0-3.537 3.541h1A2.539 2.539 0 0 1 10.526 2V1Zm2.454 4.187C12.98 9.503 9.487 13 5.18 13v1c4.86 0 8.8-3.946 8.8-8.813h-1ZM1.03 1.675C1.574 3.127 3.614 6 7.49 6V5C4.174 5 2.421 2.54 1.966 1.325l-.937.35Zm.021-.398C.004 3.373-.157 5.407.604 7.139c.759 1.727 2.392 3.055 4.73 3.835l.317-.948c-2.155-.72-3.518-1.892-4.132-3.29c-.612-1.393-.523-3.11.427-5.013l-.895-.446Zm4.087 8.87C4.536 10.75 2.726 12 .5 12v1c2.566 0 4.617-1.416 5.346-2.147l-.708-.706Zm7.949-8.009A3.445 3.445 0 0 0 10.526 1v1c.721 0 1.37.311 1.82.809l.74-.671Zm-.296.83a3.513 3.513 0 0 0 2.06-1.134l-.744-.668a2.514 2.514 0 0 1-1.466.813l.15.989ZM.222 12.916C1.863 14.01 3.583 14 5.18 14v-1c-1.63 0-3.048-.011-4.402-.916l-.556.832Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="pinterest"
+          viewBox="0 0 15 15"
+        >
+          <path
+            fill="none"
+            stroke="currentColor"
+            d="m4.5 13.5l3-7m-3.236 3a2.989 2.989 0 0 1-.764-2V7A3.5 3.5 0 0 1 7 3.5h1A3.5 3.5 0 0 1 11.5 7v.5a3 3 0 0 1-3 3a2.081 2.081 0 0 1-1.974-1.423L6.5 9m1 5.5a7 7 0 1 1 0-14a7 7 0 0 1 0 14Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="youtube"
+          viewBox="0 0 15 15"
+        >
+          <path
+            fill="currentColor"
+            d="m1.61 12.738l-.104.489l.105-.489Zm11.78 0l.104.489l-.105-.489Zm0-10.476l.104-.489l-.105.489Zm-11.78 0l.106.489l-.105-.489ZM6.5 5.5l.277-.416A.5.5 0 0 0 6 5.5h.5Zm0 4H6a.5.5 0 0 0 .777.416L6.5 9.5Zm3-2l.277.416a.5.5 0 0 0 0-.832L9.5 7.5ZM0 3.636v7.728h1V3.636H0Zm15 7.728V3.636h-1v7.728h1ZM1.506 13.227c3.951.847 8.037.847 11.988 0l-.21-.978a27.605 27.605 0 0 1-11.568 0l-.21.978ZM13.494 1.773a28.606 28.606 0 0 0-11.988 0l.21.978a27.607 27.607 0 0 1 11.568 0l.21-.978ZM15 3.636c0-.898-.628-1.675-1.506-1.863l-.21.978c.418.09.716.458.716.885h1Zm-1 7.728a.905.905 0 0 1-.716.885l.21.978A1.905 1.905 0 0 0 15 11.364h-1Zm-14 0c0 .898.628 1.675 1.506 1.863l.21-.978A.905.905 0 0 1 1 11.364H0Zm1-7.728c0-.427.298-.796.716-.885l-.21-.978A1.905 1.905 0 0 0 0 3.636h1ZM6 5.5v4h1v-4H6Zm.777 4.416l3-2l-.554-.832l-3 2l.554.832Zm3-2.832l-3-2l-.554.832l3 2l.554-.832Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="dribble"
+          viewBox="0 0 15 15"
+        >
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M4.839 1.024c3.346 4.041 5.096 7.922 5.704 12.782M.533 6.82c5.985-.138 9.402-1.083 11.97-4.216M2.7 12.594c3.221-4.902 7.171-5.65 11.755-4.293M14.5 7.5a7 7 0 1 0-14 0a7 7 0 0 0 14 0Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="calendar"
+          viewBox="0 0 24 24"
+        >
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          >
+            <rect width="20" height="18" x="2" y="4" rx="4" />
+            <path d="M8 2v4m8-4v4M2 10h20" />
+          </g>
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="shopping-bag"
+          viewBox="0 0 24 24"
+        >
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          >
+            <path
+              d="M3.977 9.84A2 2 0 0 1 5.971 8h12.058a2 2 0 0 1 1.994 1.84l.803 10A2 2 0 0 1 18.833 22H5.167a2 2 0 0 1-1.993-2.16l.803-10Z"
+            />
+            <path d="M16 11V6a4 4 0 0 0-4-4v0a4 4 0 0 0-4 4v5" />
+          </g>
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="gift"
+          viewBox="0 0 24 24"
+        >
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          >
+            <rect width="18" height="14" x="3" y="8" rx="2" />
+            <path d="M12 5a3 3 0 1 0-3 3m6 0a3 3 0 1 0-3-3m0 0v17m9-7H3" />
+          </g>
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="arrow-cycle"
+          viewBox="0 0 24 24"
+        >
+          <g
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+          >
+            <path
+              d="M22 12c0 6-4.39 10-9.806 10C7.792 22 4.24 19.665 3 16m-1-4C2 6 6.39 2 11.806 2C16.209 2 19.76 4.335 21 8"
+            />
+            <path d="m7 17l-4-1l-1 4M17 7l4 1l1-4" />
+          </g>
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="link"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M12 19a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm5 0a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm0-4a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm-5 0a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm7-12h-1V2a1 1 0 0 0-2 0v1H8V2a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v14a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V6a3 3 0 0 0-3-3Zm1 17a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-9h16Zm0-11H4V6a1 1 0 0 1 1-1h1v1a1 1 0 0 0 2 0V5h8v1a1 1 0 0 0 2 0V5h1a1 1 0 0 1 1 1ZM7 15a1 1 0 1 0-1-1a1 1 0 0 0 1 1Zm0 4a1 1 0 1 0-1-1a1 1 0 0 0 1 1Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="arrow-left"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M17 11H9.41l3.3-3.29a1 1 0 1 0-1.42-1.42l-5 5a1 1 0 0 0-.21.33a1 1 0 0 0 0 .76a1 1 0 0 0 .21.33l5 5a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.42L9.41 13H17a1 1 0 0 0 0-2Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="arrow-right"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M17.92 11.62a1 1 0 0 0-.21-.33l-5-5a1 1 0 0 0-1.42 1.42l3.3 3.29H7a1 1 0 0 0 0 2h7.59l-3.3 3.29a1 1 0 0 0 0 1.42a1 1 0 0 0 1.42 0l5-5a1 1 0 0 0 .21-.33a1 1 0 0 0 0-.76Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="play"
+          viewBox="0 0 24 24"
+        >
+          <g fill="none" fill-rule="evenodd">
+            <path
+              d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z"
+            />
+            <path
+              fill="currentColor"
+              d="M5.669 4.76a1.469 1.469 0 0 1 2.04-1.177c1.062.454 3.442 1.533 6.462 3.276c3.021 1.744 5.146 3.267 6.069 3.958c.788.591.79 1.763.001 2.356c-.914.687-3.013 2.19-6.07 3.956c-3.06 1.766-5.412 2.832-6.464 3.28c-.906.387-1.92-.2-2.038-1.177c-.138-1.142-.396-3.735-.396-7.237c0-3.5.257-6.092.396-7.235Z"
+            />
+          </g>
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="category"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M19 5.5h-6.28l-.32-1a3 3 0 0 0-2.84-2H5a3 3 0 0 0-3 3v13a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3v-10a3 3 0 0 0-3-3Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-13a1 1 0 0 1 1-1h4.56a1 1 0 0 1 .95.68l.54 1.64a1 1 0 0 0 .95.68h7a1 1 0 0 1 1 1Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="calendar"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M19 4h-2V3a1 1 0 0 0-2 0v1H9V3a1 1 0 0 0-2 0v1H5a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h14a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3Zm1 15a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-7h16Zm0-9H4V7a1 1 0 0 1 1-1h2v1a1 1 0 0 0 2 0V6h6v1a1 1 0 0 0 2 0V6h2a1 1 0 0 1 1 1Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="heart"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M20.16 4.61A6.27 6.27 0 0 0 12 4a6.27 6.27 0 0 0-8.16 9.48l7.45 7.45a1 1 0 0 0 1.42 0l7.45-7.45a6.27 6.27 0 0 0 0-8.87Zm-1.41 7.46L12 18.81l-6.75-6.74a4.28 4.28 0 0 1 3-7.3a4.25 4.25 0 0 1 3 1.25a1 1 0 0 0 1.42 0a4.27 4.27 0 0 1 6 6.05Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="plus"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M19 11h-6V5a1 1 0 0 0-2 0v6H5a1 1 0 0 0 0 2h6v6a1 1 0 0 0 2 0v-6h6a1 1 0 0 0 0-2Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="minus"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M19 11H5a1 1 0 0 0 0 2h14a1 1 0 0 0 0-2Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="cart"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M8.5 19a1.5 1.5 0 1 0 1.5 1.5A1.5 1.5 0 0 0 8.5 19ZM19 16H7a1 1 0 0 1 0-2h8.491a3.013 3.013 0 0 0 2.885-2.176l1.585-5.55A1 1 0 0 0 19 5H6.74a3.007 3.007 0 0 0-2.82-2H3a1 1 0 0 0 0 2h.921a1.005 1.005 0 0 1 .962.725l.155.545v.005l1.641 5.742A3 3 0 0 0 7 18h12a1 1 0 0 0 0-2Zm-1.326-9l-1.22 4.274a1.005 1.005 0 0 1-.963.726H8.754l-.255-.892L7.326 7ZM16.5 19a1.5 1.5 0 1 0 1.5 1.5a1.5 1.5 0 0 0-1.5-1.5Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="check"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M18.71 7.21a1 1 0 0 0-1.42 0l-7.45 7.46l-3.13-3.14A1 1 0 1 0 5.29 13l3.84 3.84a1 1 0 0 0 1.42 0l8.16-8.16a1 1 0 0 0 0-1.47Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="trash"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M10 18a1 1 0 0 0 1-1v-6a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1ZM20 6h-4V5a3 3 0 0 0-3-3h-2a3 3 0 0 0-3 3v1H4a1 1 0 0 0 0 2h1v11a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8h1a1 1 0 0 0 0-2ZM10 5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v1h-4Zm7 14a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1V8h10Zm-3-1a1 1 0 0 0 1-1v-6a1 1 0 0 0-2 0v6a1 1 0 0 0 1 1Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="star-outline"
+          viewBox="0 0 15 15"
+        >
+          <path
+            fill="none"
+            stroke="currentColor"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M7.5 9.804L5.337 11l.413-2.533L4 6.674l2.418-.37L7.5 4l1.082 2.304l2.418.37l-1.75 1.793L9.663 11L7.5 9.804Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="star-solid"
+          viewBox="0 0 15 15"
+        >
+          <path
+            fill="currentColor"
+            d="M7.953 3.788a.5.5 0 0 0-.906 0L6.08 5.85l-2.154.33a.5.5 0 0 0-.283.843l1.574 1.613l-.373 2.284a.5.5 0 0 0 .736.518l1.92-1.063l1.921 1.063a.5.5 0 0 0 .736-.519l-.373-2.283l1.574-1.613a.5.5 0 0 0-.283-.844L8.921 5.85l-.968-2.062Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="search"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0a1 1 0 0 0 0-1.39ZM11 18a7 7 0 1 1 7-7a7 7 0 0 1-7 7Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="user"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M15.71 12.71a6 6 0 1 0-7.42 0a10 10 0 0 0-6.22 8.18a1 1 0 0 0 2 .22a8 8 0 0 1 15.9 0a1 1 0 0 0 1 .89h.11a1 1 0 0 0 .88-1.1a10 10 0 0 0-6.25-8.19ZM12 12a4 4 0 1 1 4-4a4 4 0 0 1-4 4Z"
+          />
+        </symbol>
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="close"
+          viewBox="0 0 15 15"
+        >
+          <path
+            fill="currentColor"
+            d="M7.953 3.788a.5.5 0 0 0-.906 0L6.08 5.85l-2.154.33a.5.5 0 0 0-.283.843l1.574 1.613l-.373 2.284a.5.5 0 0 0 .736.518l1.92-1.063l1.921 1.063a.5.5 0 0 0 .736-.519l-.373-2.283l1.574-1.613a.5.5 0 0 0-.283-.844L8.921 5.85l-.968-2.062Z"
+          />
+        </symbol>
+        <!-- Globe icon for language selector -->
+        <symbol
+          xmlns="http://www.w3.org/2000/svg"
+          id="globe"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="currentColor"
+            d="M12 2a10 10 0 1 0 0 20a10 10 0 0 0 0-20zm0 2c-1.1 0-2 .9-2 2h4c0-1.1-.9-2-2-2zm0 16c-1.1 0-2-.9-2-2h4c0 1.1-.9 2-2 2zm6-6c0 .7-.1 1.4-.3 2H6.3c-.2-.6-.3-1.3-.3-2s.1-1.4.3-2h11.4c.2.6.3 1.3.3 2z"
+          />
+        </symbol>
+      </defs>
+    </svg>
+    <!------------- Navbar section----------------- -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-transparent px-lg-3">
+      <div class="container-fluid">
+        <div class="row justify-content-between align-items-center w-100">
+          <!-- Logo -->
+          <div class="col-auto">
+            <a class="navbar-brand text-white" href="Home-en.html">
+              <img
+                src="https://cdn.salla.sa/form-builder/uBsnI4A1Ysj7o9Jxzxsf3yiGFr02rVeu2fNf9LDx.png"
+                alt=""
+                style="height: 50px; width: 100px"
+              />
+            </a>
+          </div>
+
+          <!-- Offcanvas Toggle -->
+          <div class="col-auto">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+            >
+              <span class="navbar-toggler-icon togglr-bar"></span>
+            </button>
+
+            <!-- Offcanvas Menu -->
+            <div
+              class="offcanvas offcanvas-end text-bg-dark"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                <button
+                  type="button"
+                  class="btn-close btn-close-white"
+                  data-bs-dismiss="offcanvas"
+                  aria-label="Close"
+                ></button>
+              </div>
+
+              <div class="offcanvas-body">
+                <ul
+                  class="navbar-nav justify-content-end flex-grow-1 gap-1 gap-md-5 pe-3"
+                >
+                  <li class="nav-item">
+                    <a class="nav-link" href="Home-en.html">Home</a>
+                  </li>
+
+                  <!-- ✅ Fixed Dropdown -->
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="dropdownPages"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Products
+                    </a>
+                    <ul
+                      class="dropdown-menu dropdown-menu-dark"
+                      aria-labelledby="dropdownPages"
+                    >
+                      <li>
+                        <a
+                          href="Products/Insulation Rolls.html"
+                          class="dropdown-item item-anchor"
+                          >Insulation Rolls</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="Products/Parquet-Accessories.html"
+                          class="dropdown-item item-anchor"
+                          >Parquet & Accessories</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="Products/Sanitre-ware.html"
+                          class="dropdown-item item-anchor"
+                          >Sanitre Ware</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="Products/Switches-sockets.html"
+                          class="dropdown-item item-anchor"
+                          >Switches & Sockets</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="Services.html">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">FAQS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Icons -->
+          <div class="col-4 col-lg-auto">
+            <div class="d-flex ms-lg-3">
+              <button
+                class="icon-btn"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#languageOffcanvas"
+              >
+                <i class="bi bi-globe"></i>
+              </button>
+              <button
+                class="icon-btn"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#userOffcanvas"
+              >
+                <i class="bi bi-person"></i>
+              </button>
+              <button
+                class="icon-btn"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasCart"
+              >
+                <i class="bi bi-cart"></i>
+              </button>
+              <button class="icon-btn"><i class="bi bi-search"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- -------------User Offcanvas------------------- -->
+    <div
+      class="offcanvas offcanvas-end text-bg-dark"
+      tabindex="-1"
+      id="userOffcanvas"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">User Account</h5>
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <h6>Welcome Back!</h6>
+        <form>
+          <div class="mb-3">
+            <label>Email</label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="example@gmail.com"
+            />
+          </div>
+          <div class="mb-3">
+            <label>Password</label>
+            <input
+              type="password"
+              class="form-control"
+              placeholder="Enter Password"
+            />
+          </div>
+          <button class="btn-text-primary-custom w-100">Login</button>
+          <hr />
+          <button class="btn btn-outline-light w-100">Sign Up</button>
+        </form>
+      </div>
+    </div>
+    <!-- ------------cart offcanvas---------- -->
+    <div
+      class="offcanvas offcanvas-end"
+      data-bs-scroll="true"
+      tabindex="-1"
+      id="offcanvasCart"
+      aria-labelledby="My Cart"
+    >
+      <div class="offcanvas-header justify-content-center">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="order-md-last">
+          <h4 class="d-flex justify-content-between align-items-center mb-3">
+            <span class="text-primary-custom">Your cart</span>
+            <span class="badge btn-text-primary-custom rounded-pill">3</span>
+          </h4>
+          <ul class="list-group mb-3">
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 class="my-0">Growers cider</h6>
+                <small class="text-body-secondary">Brief description</small>
+              </div>
+              <span class="text-body-secondary">$12</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 class="my-0">Fresh grapes</h6>
+                <small class="text-body-secondary">Brief description</small>
+              </div>
+              <span class="text-body-secondary">$8</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 class="my-0">Heinz tomato ketchup</h6>
+                <small class="text-body-secondary">Brief description</small>
+              </div>
+              <span class="text-body-secondary">$5</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Total (USD)</span>
+              <strong>$20</strong>
+            </li>
+          </ul>
+
+          <button class="w-100 btn-text-primary-custom btn-lg" type="submit">
+            Continue to Checkout
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Language Offcanvas -->
+    <div
+      class="offcanvas offcanvas-end text-bg-dark"
+      tabindex="-1"
+      id="languageOffcanvas"
+    >
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">Choose Language</h5>
+        <button
+          type="button"
+          class="btn-close btn-close-white"
+          data-bs-dismiss="offcanvas"
+        ></button>
+      </div>
+      <div class="offcanvas-body">
+        <button
+          onclick="setLanguage('en')"
+          class="btn btn-outline-light w-100 mb-2"
+        >
+          English
+        </button>
+        <button onclick="setLanguage('ar')" class="btn btn-outline-light w-100">
+          Arabic
+        </button>
+      </div>
+    </div>
+    <!-- ---------top banner section--------- -->
+    <div id="carouselExampleIndicators" class="carousel slide top-banner">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="3"
+          aria-label="Slide 4"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://cdn.salla.sa/form-builder/iKrH2N0LhZCw2UFQPAkM4qHznJniUFxaEW07aMP4.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn.salla.sa/form-builder/aSNe8eNJrUyOr78cqlp8chmIohRVvtu3FCZEdCz2.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn.salla.sa/form-builder/Z92oAeroOHwQI2FFNBuYpjLz9dwPALmv0pXspvBe.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://cdn.salla.sa/form-builder/CMmfZLxEWNyMoeu9j64l3pXoLxGFegt1DkgPboEj.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- ---------tabs section 3--------- -->
+    <div class="container-fluid px-lg-5 py-5">
+      <!-- Top Section -->
+      <div class="section-top">
+        <h6 class="small text-primary-custom">Sanitary Ware Section</h6>
+        <h3>Our Featured Products</h3>
+        <p class="small">
+          Discover the new year's collection of modern lighting solutions
+        </p>
+      </div>
+
+      <!-- Tabs -->
+      <ul class="nav nav-tabs mb-4" id="productTabs-1" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="air-tab-1"
+            data-bs-toggle="tab"
+            data-bs-target="#air-1"
+            type="button"
+            role="tab"
+          >
+            Washbasins And Accessories
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="diffuser-tab-1"
+            data-bs-toggle="tab"
+            data-bs-target="#diffuser-1"
+            type="button"
+            role="tab"
+          >
+            Mixers
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="diffuser2-tab-1"
+            data-bs-toggle="tab"
+            data-bs-target="#diffuser2-1"
+            type="button"
+            role="tab"
+          >
+            Oilet Seats And Accessories
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="diffuser3-tab-1"
+            data-bs-toggle="tab"
+            data-bs-target="#diffuser3-1"
+            type="button"
+            role="tab"
+          >
+            Shattaf And Accessories
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="diffuser4-tab-1"
+            data-bs-toggle="tab"
+            data-bs-target="#diffuser4-1"
+            type="button"
+            role="tab"
+          >
+            Accessories
+          </button>
+        </li>
+      </ul>
+
+      <!-- Tab Content -->
+      <div class="tab-content" id="productTabsContent-1">
+        <!-- Washbasins And Accessories Tab -->
+        <div class="tab-pane fade show active" id="air-1" role="tabpanel">
+          <div class="row g-4 product-grid-five">
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/f48eccfe-8aef-4e3d-b71a-8c2bc717b81f-500x500-1S3dXK7pXPNZAkBma760E3sFG87w9pzoV75yhhRc.jpg"
+                  alt="Air Purifier"
+                />
+                <h5>Smart Air Purifier</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/8303b60e-139f-40bf-9b0c-f86dc20659e8-500x500-SgGGFagUJfXhv6zcoArZ0I3LHrpA9qveFhkqZtHb.jpg"
+                  alt="Air Purifier 2"
+                />
+                <h5>Mini Air Purifier</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/ae92a269-3889-4bfc-80df-125fa4c5a6e4-500x500-aaKA8y5A04kwwkPyAs9V5BEVNWrjCgF5ik1iBlYu.jpg"
+                  alt="Air Purifier 3"
+                />
+                <h5>Pro Max Purifier</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/af3b22ec-8626-49f6-8610-0ad3ef8da7a2-500x500-Ww0zpoUiRL1vzEgPnLfCcPgXJMYRoZG8o1pOFNDU.jpg"
+                  alt="Air Purifier 4"
+                />
+                <h5>Compact Air Cleaner</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/4954537c-c4d3-4193-88d8-f07716dbe3a3-500x500-K1ygCjSDUh1s1XOiJFFWSTzodH9T4usBL5XOjZLP.jpg"
+                  alt="Air Purifier 4"
+                />
+                <h5>Compact Air Cleaner</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------  Mixers Tabs-------------- -->
+        <div class="tab-pane fade" id="diffuser-1" role="tabpanel">
+          <div class="row g-4 product-grid-five">
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/73142991-789f-4384-ba0e-b1c9b8cc5927-500x500-T1Bw1F1IGnb5gOT0OwKit3YOGzwCEYufTbPdra3u.jpg"
+                  alt="Diffuser 1"
+                />
+                <h5>Smart Aroma Diffuser</h5>
+                <h3>SAR 179</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/f62728f7-8f9c-4b75-bf80-117a4c2f5fbb-500x500-xu65BLnPQ30Bn6HKOa9bXzfzFLSsd5lbIX5oQe8y.jpg"
+                  alt="Diffuser 2"
+                />
+                <h5>Ultrasonic Diffuser</h5>
+                <h3>SAR 229</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/73142991-789f-4384-ba0e-b1c9b8cc5927-500x500-T1Bw1F1IGnb5gOT0OwKit3YOGzwCEYufTbPdra3u.jpg"
+                  alt="Diffuser 1"
+                />
+                <h5>Smart Aroma Diffuser</h5>
+                <h3>SAR 179</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/f62728f7-8f9c-4b75-bf80-117a4c2f5fbb-500x500-xu65BLnPQ30Bn6HKOa9bXzfzFLSsd5lbIX5oQe8y.jpg"
+                  alt="Diffuser 3"
+                />
+                <h5>Luxury Diffuser</h5>
+                <h3>SAR 259</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/a1b16724-ab34-46ab-95e1-13f4e4e319ac-500x500-zBFWVQhEzDcNP0eXxMuqLinU75awnfcBmATNXVxR.jpg"
+                  alt="Diffuser 4"
+                />
+                <h5>Compact Aroma</h5>
+                <h3>SAR 199</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------  Oilet Seats And Accessories-------------- -->
+        <div class="tab-pane fade" id="diffuser2-1" role="tabpanel">
+          <div class="row g-4 product-grid-five">
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/4f0205a4-638e-4339-af25-1d7094129e1d-500x500-HsmUMyzbCy20KZjwICL9FpnoJHz65kXDG3xm3SqI.jpg"
+                  alt="Diffuser 1"
+                />
+                <h5>Smart Aroma Diffuser</h5>
+                <h3>SAR 179</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/6e91e65c-5bca-4a8a-a884-e955b3e7028d-500x500-1kf7U9RfgiBIiGeP3fhAM0zhjl7QfyhSjVK4UCIb.jpg"
+                  alt="Diffuser 2"
+                />
+                <h5>Ultrasonic Diffuser</h5>
+                <h3>SAR 229</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/e487da95-5188-4001-a88c-c1e154c3bb58-500x500-7gTOFBfMoaVXjAgkhNxvzKsZhF7fUMQXPZaBAidO.jpg"
+                  alt="Diffuser 3"
+                />
+                <h5>Luxury Diffuser</h5>
+                <h3>SAR 259</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/31491116-f30b-4a40-9f08-f870befcb518-500x500-iyaX9V0bb8I9FPfvIoTKkA4fwq8UzMTEXJYX89Xk.jpg"
+                  alt="Diffuser 4"
+                />
+                <h5>Compact Aroma</h5>
+                <h3>SAR 199</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/75c02b7d-bf03-446d-8b17-fcd5d952ac99-500x500-6pvalLbGLJsHV7eMW0z086OeoHLA6WKS0nmHd2MW.jpg"
+                  alt="Diffuser 4"
+                />
+                <h5>Compact Aroma</h5>
+                <h3>SAR 199</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------  Shattaf And Accessories-------------- -->
+        <div class="tab-pane fade" id="diffuser3-1" role="tabpanel">
+          <div class="row g-4 product-grid-five">
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/9c010e5a-8a38-45d9-a7c9-5454a493f24e-500x500-YZBti3LcSUolevc4ycS1f70Qz4lgYf1uX4iKbydy.jpg"
+                  alt="Diffuser 1"
+                />
+                <h5>Smart Aroma Diffuser</h5>
+                <h3>SAR 179</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/a2c1cc2a-8d64-4b0b-8e12-989abcb4a81d-500x500-GQbR4ovXeh3FrCcMWki2K1KyI0wE5DXJ1hp3ht9s.jpg"
+                  alt="Diffuser 2"
+                />
+                <h5>Ultrasonic Diffuser</h5>
+                <h3>SAR 229</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/a2c1cc2a-8d64-4b0b-8e12-989abcb4a81d-500x500-GQbR4ovXeh3FrCcMWki2K1KyI0wE5DXJ1hp3ht9s.jpg"
+                  alt="Diffuser 3"
+                />
+                <h5>Luxury Diffuser</h5>
+                <h3>SAR 259</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/33a6b334-2d3f-46eb-8024-09fd3bcfe360-500x500-dOpdE7fZxV04vSuwUDcjxOQVzKMn8hQfebYmFkI0.jpg"
+                  alt="Diffuser 4"
+                />
+                <h5>Compact Aroma</h5>
+                <h3>SAR 199</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/c02b106d-7b5f-4338-b449-f8e4b1b4cd80-500x500-y3Bcw31QM0lb3cR7Sv5SGBTVQzlguQF4RL1HQZ4U.jpg"
+                  alt="Diffuser 4"
+                />
+                <h5>Compact Aroma</h5>
+                <h3>SAR 199</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------  Accessories-------------- -->
+        <div class="tab-pane fade" id="diffuser4-1" role="tabpanel">
+          <div class="row g-4 product-grid-five">
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/288daba1-1526-43d3-8977-59e14a129a62-500x419.62962962963-JWArSt2QfLwc5oHDTkWyN3pMYV9orzeIZZ6FkUZD.png"
+                  alt="Diffuser 1"
+                />
+                <h5>Smart Aroma Diffuser</h5>
+                <h3>SAR 179</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/e6a07dab-0f37-4bd3-ab1f-9021a8a3a190-500x500-ASUqgceV409z9AnM7aTuitNhkBM9CXGHQ9EqlqBS.png"
+                  alt="Diffuser 2"
+                />
+                <h5>Ultrasonic Diffuser</h5>
+                <h3>SAR 229</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/a1b16724-ab34-46ab-95e1-13f4e4e319ac-500x500-zBFWVQhEzDcNP0eXxMuqLinU75awnfcBmATNXVxR.jpg"
+                  alt="Diffuser 3"
+                />
+                <h5>Luxury Diffuser</h5>
+                <h3>SAR 259</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/4a35ef87-5eba-4d30-85fe-611cfefb1889-500x500-HPtVc9dMuzRkIDI9QShTjfF1rz15henaCO7kTJ2o.png"
+                  alt="Diffuser 4"
+                />
+                <h5>Compact Aroma</h5>
+                <h3>SAR 199</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/4a35ef87-5eba-4d30-85fe-611cfefb1889-500x500-HPtVc9dMuzRkIDI9QShTjfF1rz15henaCO7kTJ2o.png"
+                  alt="Diffuser 4"
+                />
+                <h5>Compact Aroma</h5>
+                <h3>SAR 199</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View All -->
+      <div class="mt-5 text-center">
+        <a href="#" class="btn-view-all d-inline-flex align-items-center gap-2">
+          <span>View all</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="26"
+            height="26"
+            viewBox="0 0 32 32"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+            >
+              <circle cx="16" cy="16" r="15.12"></circle>
+              <path d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <!-- -----------gaming block Arabic section--------- -->
+    <section id="gaming-block-2" class="py-5 text-center">
+      <div class="container-fluid">
+        <div class="pt-5 pb-4">
+          <label>اكتشف أكثر</label>
+          <h2>تصفح المنتجات حسب القسم</h2>
+          <p>تعرف عن قرب على فئات منتجاتنا الأكثر تميزا</p>
+          <div class="mt-3 text-center mb-5">
+            <a
+              href="#"
+              class="btn-view-all d-inline-flex align-items-center gap-2"
+            >
+              <span>View all</span>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="26"
+                height="26"
+                viewBox="0 0 32 32"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="10"
+                >
+                  <circle cx="16" cy="16" r="15.12"></circle>
+                  <path
+                    d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- === Swiper Carousel === -->
+        <div class="swiper mySwiper pb-4">
+          <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide col-lg-3 col-md-4 col-6">
+              <a
+                href="https://build-station.com/en/redirect/categories/1579875590"
+                class="slide-card"
+              >
+                <img
+                  src="https://cdn.salla.sa/form-builder/87vAzRnfUcZ3eLc9QQ2iGHiLwBYy8uWsT0jUcNHZ.jpg"
+                  alt=""
+                />
+                <div class="slide-overlay-dark"></div>
+                <div class="slide-overlay-primary"></div>
+              </a>
+            </div>
+            <!-- Slide 2 -->
+            <div class="swiper-slide col-lg-3 col-md-4 col-6">
+              <a
+                href="https://build-station.com/en/redirect/categories/1662252348"
+                class="slide-card"
+              >
+                <img
+                  src="https://cdn.salla.sa/form-builder/hlzFVBTimXRbzLsjqTFmGyHThQVY3PQCPeLhUvpo.jpg"
+                  alt=""
+                />
+                <div class="slide-overlay-dark"></div>
+                <div class="slide-overlay-primary"></div>
+              </a>
+            </div>
+            <!-- Slide 3 -->
+            <div class="swiper-slide col-lg-3 col-md-4 col-6">
+              <a
+                href="https://build-station.com/en/redirect/categories/562460930"
+                class="slide-card"
+              >
+                <img
+                  src="https://cdn.salla.sa/form-builder/mtnfqylAiegl1e1bZ0fwO7Ht9o722a61Yns64Z8V.jpg"
+                  alt=""
+                />
+                <div class="slide-overlay-dark"></div>
+                <div class="slide-overlay-primary"></div>
+              </a>
+            </div>
+            <!-- slide-4 -->
+            <div class="swiper-slide col-lg-3 col-md-4 col-6">
+              <a
+                href="https://build-station.com/en/redirect/categories/1579875590"
+                class="slide-card"
+              >
+                <img
+                  src="https://cdn.salla.sa/form-builder/87vAzRnfUcZ3eLc9QQ2iGHiLwBYy8uWsT0jUcNHZ.jpg"
+                  alt=""
+                />
+                <div class="slide-overlay-dark"></div>
+                <div class="slide-overlay-primary"></div>
+              </a>
+            </div>
+            <!-- slide-5 -->
+            <div class="swiper-slide col-lg-3 col-md-4 col-6">
+              <a
+                href="https://build-station.com/en/redirect/categories/1662252348"
+                class="slide-card"
+              >
+                <img
+                  src="https://cdn.salla.sa/form-builder/hlzFVBTimXRbzLsjqTFmGyHThQVY3PQCPeLhUvpo.jpg"
+                  alt=""
+                />
+                <div class="slide-overlay-dark"></div>
+                <div class="slide-overlay-primary"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------tabs section 1--------- -->
+    <div class="container-fluid px-lg-5 py-5">
+      <!-- Top Section -->
+      <div class="section-top">
+        <h6 class="small text-primary-custom">Lighting Section</h6>
+        <h3>Our Featured Products</h3>
+        <p class="small">
+          Discover the new year's collection of modern lighting solutions
+        </p>
+      </div>
+
+      <!-- Tabs -->
+      <ul class="nav nav-tabs mb-4" id="productTabs-2" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="air-tab-2"
+            data-bs-toggle="tab"
+            data-bs-target="#air-2"
+            type="button"
+            role="tab"
+          >
+            Indoor Lighting
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="diffuser-tab-2"
+            data-bs-toggle="tab"
+            data-bs-target="#diffuser-2"
+            type="button"
+            role="tab"
+          >
+            Outdoor Lighting
+          </button>
+        </li>
+      </ul>
+
+      <!-- Tab Content -->
+      <div class="tab-content" id="productTabsContent-2">
+        <!-- Air Purifier Tab -->
+        <div class="tab-pane fade show active" id="air-2" role="tabpanel">
+          <div class="row g-4 product-grid-five">
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/d3dcca5e-c477-4291-a4fc-7d599639d56d-500x500-Am8iUwnxwOW55SP3QqpjNlXG4kypalazSmCaAM7f.jpg"
+                  alt="Air Purifier"
+                />
+                <h5>Smart Air Purifier</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/095c9c30-9d62-4a06-b3f5-f779d94a0e03-500x500-2jO8786xtnH3WUnGroP7d5cwDZvjce3iRVAefprT.jpg"
+                  alt="Air Purifier 2"
+                />
+                <h5>Mini Air Purifier</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/4c5096c3-064a-4bbf-bba6-fe28b22aa95e-500x500-aFO9sM0AvJv6rsZrQsG8MPFtD0xx0QcAFkK0HlYO.jpg"
+                  alt="Air Purifier 3"
+                />
+                <h5>Pro Max Purifier</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/2b0aeb62-0668-4f1b-86ee-f53f99238f9d-500x500-cMLtuKN6693e2pQmeYCHX6GkCv9GP7iZ4zRN3tDb.jpg"
+                  alt="Air Purifier 4"
+                />
+                <h5>Compact Air Cleaner</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/2b0aeb62-0668-4f1b-86ee-f53f99238f9d-500x500-cMLtuKN6693e2pQmeYCHX6GkCv9GP7iZ4zRN3tDb.jpg"
+                  alt="Air Purifier 4"
+                />
+                <h5>Compact Air Cleaner</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!------------ Out Door LIghtining-------------- -->
+        <div class="tab-pane fade" id="diffuser-2" role="tabpanel">
+          <div class="row g-4 product-grid-five">
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/1743ef09-8a18-4e72-b6c5-049520ced250-500x500-8L9LO4cHpvqL7YPrOBIDne0srsM2x2WmTHJ2QQPK.jpg"
+                  alt="Diffuser 1"
+                />
+                <h5>Smart Aroma Diffuser</h5>
+                <h3>SAR 179</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/c5f5b64b-9cae-45a2-b3dd-3452e845bcb0-500x500-nk0kIZaMuUNawqJVY5Ms5icpJmLq6WY9XFyVx2Bw.jpg"
+                  alt="Diffuser 2"
+                />
+                <h5>Ultrasonic Diffuser</h5>
+                <h3>SAR 229</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/b93c39ea-0621-474d-820f-a48ccbd4f884-500x500-Ah07kkRDeK48PCtsFWvuLxEc0hZHjpNFN2CjR9dW.jpg"
+                  alt="Diffuser 3"
+                />
+                <h5>Luxury Diffuser</h5>
+                <h3>SAR 259</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/a1b16724-ab34-46ab-95e1-13f4e4e319ac-500x500-zBFWVQhEzDcNP0eXxMuqLinU75awnfcBmATNXVxR.jpg"
+                  alt="Diffuser 4"
+                />
+                <h5>Compact Aroma</h5>
+                <h3>SAR 199</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/a1b16724-ab34-46ab-95e1-13f4e4e319ac-500x500-zBFWVQhEzDcNP0eXxMuqLinU75awnfcBmATNXVxR.jpg"
+                  alt="Diffuser 4"
+                />
+                <h5>Compact Aroma</h5>
+                <h3>SAR 199</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View All -->
+      <div class="mt-5 text-center">
+        <a href="#" class="btn-view-all d-inline-flex align-items-center gap-2">
+          <span>View all</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="26"
+            height="26"
+            viewBox="0 0 32 32"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+            >
+              <circle cx="16" cy="16" r="15.12"></circle>
+              <path d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <!-- ----------image and slider section-------------- -->
+    <section
+      id="products-slider-4-slider"
+      class="s-block s-block--products-slider-and-fixedarea overflow-hidden s-block--main-slider bg-transparent s-block--anime py-5"
+    >
+      <div class="container-fluid">
+        <div class="row align-items-center g-4">
+          <!-- Image column -->
+          <div class="col-12 col-lg-6">
+            <div class="promo-image-wrapper">
+              <img
+                src="https://cdn.salla.sa/form-builder/RmOXhaCc6kFvWJqMu7jsbYVq4paRGZBNQroPjgVx.jpg"
+                alt="Promo"
+                class="promo-image"
+              />
+            </div>
+          </div>
+
+          <!-- Slider column -->
+          <div class="col-12 col-lg-6">
+            <div class="products-slider-container">
+              <div
+                class="d-flex justify-content-between align-items-center"
+              >
+                <div class="slider-controls ">
+                  <button
+                    class="btn-text-primary-custom products-prev"
+                    aria-label="Previous"
+                  >
+                    &#10094;
+                  </button>
+                  <button
+                    class=" btn-text-primary-custom products-next"
+                    aria-label="Next"
+                  >
+                    &#10095;
+                  </button>
+                </div>
+              </div>
+
+              <div class="swiper products-slider-swiper">
+                <div class="swiper-wrapper">
+                  <!-- slide 1 -->
+                   
+                  <div class="swiper-slide">
+                    <div class="product-entry__image">
+                      <i class="bi bi-heart fav-icon"></i>
+                       <span class="badge-left">وصل حديثاً</span>
+                      <img
+                        src="https://cdn.salla.sa/zKxdl/5add1907-b6eb-48b4-822f-a8ac8fddc480-500x500-9hBq1V5LcpQ8AtGn25Yfdw6adNVuzbhbXanKH3kU.jpg"
+                        alt="Diffuser 4"
+                      />
+                      <h6 class="text-center">
+                        وحدة إضاءة ماسحة للحائط- 36 واط
+                      </h6>
+                      <h6 class="text-center">SAR 199</h6>
+                      <div class="product-actions">
+                        <button class="btn btn-cart">
+                          <i class="bi bi-bag me-2"></i>Add to Cart
+                        </button>
+                        <button class="icon-btn">
+                          <i class="bi bi-eye"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  
+
+                  <!-- slide 2 -->
+                    
+                  <div class="swiper-slide">
+                    <div class="product-entry__image">
+                      <i class="bi bi-heart fav-icon"></i>
+                       <span class="badge-left">وصل حديثاً</span>
+                      <img
+                        src="https://cdn.salla.sa/zKxdl/9df66d6d-30db-4431-9af8-c6d6b90255f6-500x500-tnUk4PxmFnhLmjLcrRLIT4Z6H3onMOWZUa41YIbI.jpg"
+                        alt="Diffuser 4"
+                      />
+                      <h6 class="text-center">
+                        وحدة إضاءة ماسحة للحائط- 36 واط
+                      </h6>
+                      <h6 class="text-center">SAR 199</h6>
+                      <div class="product-actions">
+                        <button class="btn btn-cart">
+                          <i class="bi bi-bag me-2"></i>Add to Cart
+                        </button>
+                        <button class="icon-btn">
+                          <i class="bi bi-eye"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- slide 3 -->
+                   
+                  <div class="swiper-slide">
+                    <div class="product-entry__image text-center">
+                      <i class="bi bi-heart fav-icon"></i>
+                       <span class="badge-left">وصل حديثاً</span>
+                      <img
+                        src="https://cdn.salla.sa/zKxdl/8ac57a9a-e5db-438f-98dd-5010d32a3408-500x500-7LATbK8i7tbBmqrR0848xyl4yO40CDpVyftHGJMx.jpg"
+                        alt="Diffuser 4"
+                      />
+                      <h6 class="text-center">
+                        وحدة إضاءة ماسحة للحائط- 36 واط
+                      </h6>
+                      <h6 class="text-center mt-2">SAR 199</h6>
+                      <div class="product-actions">
+                        <button class="btn btn-cart">
+                          <i class="bi bi-bag me-2"></i>Add to Cart
+                        </button>
+                        <button class="icon-btn">
+                          <i class="bi bi-eye"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+                <!-- <div class="swiper-pagination"></div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ----blue large image sections-------- -->
+    <section class="product-sections text-center text-lg-start">
+      <div class="container position-relative">
+        <!-- Transparent big title -->
+        <h2 class="transparent-title">منتج جديد</h2>
+
+        <div class="row align-items-center justify-content-center g-5">
+          <!-- Text Content -->
+          <div class="col-lg-6 order-2 order-lg-1 text-center text-lg-start">
+            <small class="opacity-75 d-block mb-2"></small>
+
+            <h1 class="fw-bold display-4 mb-3">
+              <a href="#" class="text-dark text-decoration-none">
+                بانيو/مغطس ريتميك بلس HAT-8501
+              </a>
+            </h1>
+
+            <div
+              class="d-flex align-items-center justify-content-center justify-content-lg-start gap-3 mb-3"
+            >
+              <h3 class="fw-bold fs-5 mb-0">3,649 <i class="sicon-sar"></i></h3>
+            </div>
+
+            <p class="text-dark-50 mb-4">
+              مصنوع من ألواح أكريليك نقية 100% مدعمة بالألياف الزجاجية لضمان
+              أعلي جودة ونظافة فائقة وطول العمر وتجربة استحمام نظيفة وآمنة.
+              متوافق مع المعايير الدولية...
+            </p>
+
+            <!-- More details link -->
+            <a class="more-link" href="#">
+              <span>المزيد من التفاصيل</span>
+              <svg
+                class="arrow-icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="28"
+                height="28"
+                viewBox="0 0 32 32"
+              >
+                <g
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linejoin="round"
+                  stroke-miterlimit="10"
+                >
+                  <circle cx="16" cy="16" r="15.12"></circle>
+                  <path
+                    d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Product Image -->
+          <div class="col-lg-6 order-1 order-lg-2 text-center">
+            <img
+              src="https://cdn.salla.sa/form-builder/Ndq9sfpzeOuh1ssqGL2LqkyJTZkKX2gH9SXVv3nn.png"
+              alt="منتج جديد"
+              class="img-fluid rounded shadow-sm"
+              style="max-width: 400px"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -----informative sections ------- -->
+    <section class="informative-section">
+      <div class="container">
+        <!-- Header -->
+        <div class="section-header">
+          <span>منتج مميز</span>
+          <h3>الواح هاتش للبناء</h3>
+          <p>الواح مبتكرة ثورة جديدة في البناء</p>
+        </div>
+
+        <!-- 3 Columns -->
+        <div class="row align-items-center g-5">
+          <!-- Left Features -->
+          <div class="col-lg-4">
+            <a href="#" class="feature-item flex-row-reverse">
+              <img
+                src="https://cdn.salla.sa/form-builder/hm7t8MnEC2DhGO7OLVtwgrcFmtdMpzb15eA8Vsfa.gif"
+                alt="خفيف الوزن"
+              />
+              <div>
+                <h2>خفيف الوزن</h2>
+                <p>أقوى وأخف من الجبس والإسمنت أسهل في الرفع والحمل والتركيب</p>
+              </div>
+            </a>
+
+            <a href="#" class="feature-item flex-row-reverse">
+              <img
+                src="https://cdn.salla.sa/form-builder/nKeFRVQbNxMwhZWAflrJeVbjbgV1pchquZT9KyWe.gif"
+                alt="عزل حراري"
+              />
+              <div>
+                <h2>عزل حراري</h2>
+                <p>توصيلة حرارية منخفضة تصل إلى 0.037 واط/متر كلفن</p>
+              </div>
+            </a>
+
+            <a href="#" class="feature-item flex-row-reverse">
+              <img
+                src="https://cdn.salla.sa/form-builder/U3PxSlIA312tdOB5GnhmmGfNYczvSXoxBFF2P7GB.gif"
+                alt="صديق للبيئة"
+              />
+              <div>
+                <h2>صديق للبيئة</h2>
+                <p>
+                  مُختَبَر ومُعتمد لإطلاق مستويات منخفضة جدًا من المُركّبات
+                  العضوية المُتطايرة
+                </p>
+              </div>
+            </a>
+          </div>
+
+          <!-- Center Image -->
+          <div class="col-lg-4 middle-image">
+            <img
+              src="https://cdn.salla.sa/form-builder/dXToafM3o2iRxb8CLUjCwHCzbAOgaLXC5edureN4.png"
+              alt="ألواح هاتش"
+            />
+          </div>
+
+          <!-- Right Features -->
+          <div class="col-lg-4">
+            <a href="#" class="feature-item">
+              <img
+                src="https://cdn.salla.sa/form-builder/xJkAzcExD9n0ELkn8fDoy7SHYPlBLyLNDaIlF8ln.gif"
+                alt="عازل للماء 100%"
+              />
+              <div>
+                <h2>عازل للماء 100%</h2>
+                <p>قلب رغوي عازل مائي 100%، لا انتفاخ، لا عفن مع مرور الوقت.</p>
+              </div>
+            </a>
+
+            <a href="#" class="feature-item">
+              <img
+                src="https://cdn.salla.sa/form-builder/3eUntAosQAnjWvtYi0Voly8PiB3eEazvSFF9Bqqx.gif"
+                alt="تحمل عالي"
+              />
+              <div>
+                <h2>تحمل عالي</h2>
+                <p>قوة ضغط &gt;300 كيلو باسكال، قوة شد ≥401 كيلو باسكال</p>
+              </div>
+            </a>
+
+            <a href="#" class="feature-item">
+              <img
+                src="https://cdn.salla.sa/form-builder/sJRi2pDAUdpkYBEkFjB6VrVA8MjhcRTr2HKHg01T.gif"
+                alt="الأماكن المناسبة"
+              />
+              <div>
+                <h2>الأماكن المناسبة</h2>
+                <p>
+                  ممتاز للبيئات الصعبة مثل الحمامات، الغرف المبللة، والتطبيقات
+                  التجارية.
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ---------tabs section 2--------- -->
+    <div class="container-fluid px-lg-5 py-5">
+      <!-- Top Section -->
+      <div class="section-top">
+        <h6 class="small text-primary-custom">Smart Living Section</h6>
+        <h3>Our Featured Products</h3>
+        <p class="small">
+          Explore the new year's collection of smart living solutions
+        </p>
+      </div>
+
+      <!-- Tabs -->
+      <ul class="nav nav-tabs mb-4" id="productTabs-3" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="air-tab-3"
+            data-bs-toggle="tab"
+            data-bs-target="#air-3"
+            type="button"
+            role="tab"
+          >
+            Air Purifier
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="diffuser-tab-3"
+            data-bs-toggle="tab"
+            data-bs-target="#diffuser-3"
+            type="button"
+            role="tab"
+          >
+            Smart Diffuser
+          </button>
+        </li>
+      </ul>
+
+      <!-- Tab Content -->
+      <div class="tab-content" id="productTabsContent-3">
+        <!-- Air Purifier Tab -->
+        <div class="tab-pane fade show active" id="air-3" role="tabpanel">
+          <div class="row g-4 product-grid-five">
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/2cb60563-7a47-4340-be2d-1ab153206ca0-500x500-XT1XYQbF6z9Y3KzWaJRqKvDsVpE0Zzu3zE8wLJ6b.png"
+                  alt="Air Purifier"
+                />
+                <h5>Smart Air Purifier</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/46f17344-29c0-4c96-959e-7b67d425950b-400x500-1E91eVajMo8aTQ7L8jOfJxYmELoukIHBoGbXvdnB.png"
+                  alt="Air Purifier 2"
+                />
+                <h5>Mini Air Purifier</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/1b3a5a50-aa2f-45b0-b665-d169336eeb7a-400x500-mkSpMXVZdAn2606zo9bjUJqM1DuJHtevkjHPGGjK.png"
+                  alt="Air Purifier 3"
+                />
+                <h5>Pro Max Purifier</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/2cb60563-7a47-4340-be2d-1ab153206ca0-500x500-XT1XYQbF6z9Y3KzWaJRqKvDsVpE0Zzu3zE8wLJ6b.png"
+                  alt="Air Purifier 4"
+                />
+                <h5>Compact Air Cleaner</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/2cb60563-7a47-4340-be2d-1ab153206ca0-500x500-XT1XYQbF6z9Y3KzWaJRqKvDsVpE0Zzu3zE8wLJ6b.png"
+                  alt="Air Purifier 4"
+                />
+                <h5>Compact Air Cleaner</h5>
+                <h3 class="small">299 SAR</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Smart Diffuser Tab -->
+        <div class="tab-pane fade" id="diffuser-3" role="tabpanel">
+          <div class="row g-4 product-grid-five">
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/16f7ba4c-b8c0-4f41-bc84-aa1df21f6971-500x500-DMH4xzJEtdhxnDfn6n4267swfsmGXoj36uLMvE3i.jpg"
+                  alt="Diffuser 1"
+                />
+                <h5>Smart Aroma Diffuser</h5>
+                <h3>SAR 179</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/a25f4658-5a5f-4c02-998f-224d22ae3457-499x500-uUqC7pyPHfuGZdatbLai6KEdhXQGcpQVQcS2ltR3.jpg"
+                  alt="Diffuser 2"
+                />
+                <h5>Ultrasonic Diffuser</h5>
+                <h3>SAR 229</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/46f17344-29c0-4c96-959e-7b67d425950b-400x500-1E91eVajMo8aTQ7L8jOfJxYmELoukIHBoGbXvdnB.png"
+                  alt="Diffuser 3"
+                />
+                <h5>Luxury Diffuser</h5>
+                <h3>SAR 259</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/2cb60563-7a47-4340-be2d-1ab153206ca0-500x500-XT1XYQbF6z9Y3KzWaJRqKvDsVpE0Zzu3zE8wLJ6b.png"
+                  alt="Diffuser 4"
+                />
+                <h5>Compact Aroma</h5>
+                <h3>SAR 199</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="product-card">
+                <i class="bi bi-heart fav-icon"></i>
+                <img
+                  src="https://cdn.salla.sa/zKxdl/2cb60563-7a47-4340-be2d-1ab153206ca0-500x500-XT1XYQbF6z9Y3KzWaJRqKvDsVpE0Zzu3zE8wLJ6b.png"
+                  alt="Diffuser 4"
+                />
+                <h5>Compact Aroma</h5>
+                <h3>SAR 199</h3>
+                <div class="product-actions">
+                  <button class="btn btn-cart">
+                    <i class="bi bi-bag me-2"></i>Add to Cart
+                  </button>
+                  <button class="icon-btn"><i class="bi bi-eye"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- View All -->
+      <div class="mt-5 text-center">
+        <a href="#" class="btn-view-all d-inline-flex align-items-center gap-2">
+          <span>View all</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="26"
+            height="26"
+            viewBox="0 0 32 32"
+          >
+            <g
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1.5"
+              stroke-linejoin="round"
+              stroke-miterlimit="10"
+            >
+              <circle cx="16" cy="16" r="15.12"></circle>
+              <path d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+            </g>
+          </svg>
+        </a>
+      </div>
+    </div>
+    <!-- Bootstrap Fixed Banner with Dots -->
+    <section
+      class="s-block s-block--fixed-banner wide-placeholder py-5"
+      id="fixed-banner-with-dots-8"
+    >
+      <div class="container-fluid px-lg-5">
+        <div
+          class="s-block__title position-relative mb-4 text-center text-md-start"
+        >
+          <div class="right-side">
+            <h3 class="mb-3 text-center">
+              Everything you need for the bathroom, just the way
+            </h3>
+            <p class="mb-5 text-muted text-center small">
+              تصاميم متكاملة لدورة المياه تجمع بين الأناقة والعملية
+            </p>
+          </div>
+        </div>
+
+        <div class="position-relative banner-wrapper bg-light">
+          <img
+            src="https://cdn.salla.sa/form-builder/OGq8tRKR7zFoBHheSIXMWX6erVBE5eyAfxP9iUXb.jpg"
+            alt="Bathroom Banner"
+            class="img-fluid banner-image"
+          />
+
+          <!-- Example Dot -->
+          <div
+            class="banner-dot position-absolute"
+            style="top: 50%; right: 30%"
+          >
+            <div class="dot-btn rounded-circle position-relative">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                class="plus-icon"
+              >
+                <path
+                  d="M19 13H13V19H11V13H5V11H11V5H13V11H19V13Z"
+                  fill="#fff"
+                ></path>
+              </svg>
+
+              <span class="ripple rounded-circle"></span>
+              <span class="ripple rounded-circle"></span>
+            </div>
+
+            <!-- Popover -->
+            <div class="banner-dot-popover popover-top text-start">
+              <a
+                href="#"
+                class="dot-link d-flex align-items-center text-decoration-none"
+              >
+                <img
+                  src="https://cdn.salla.sa/zKxdl/507d0a80-eca8-4f5a-b51a-02cd9a52cad1-500x500-6e9BMirxP86bjXxUS438mVGUnniRxj7ICwKvcXwu.jpg"
+                  alt="Soap Dispenser"
+                  class="dot-img me-3"
+                  width="100"
+                />
+                <div class="text">
+                  <p class="dot-title mb-1 fw-semibold">
+                    Soap Dispenser with Holder SGD001
+                  </p>
+                  <h2 class="h5 fw-bold mb-0">129 <i class="sicon-sar"></i></h2>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Floating tooltip (on hover) -->
+          <div
+            class="image-indicator position-absolute start-50 translate-middle-x bottom-0 mb-3 opacity-0"
+          >
+            <span>مرر المؤشر على الصورة لتحديد مكان المنتج على الصورة</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --------discover More---------------- -->
+    <section class="s-block s-block--blog py-5">
+      <div class="container-fluid px-lg-5">
+        <!-- Section Title -->
+        <div class="text-center mb-5">
+          <span class="d-inline-block fw-bold mb-2 text-primary-custom small">
+            Discover More
+          </span>
+          <h2 class="fw-semibold mb-3">Articles and Important Information</h2>
+          <p class="text-muted small">
+            Explore the best tips and insights for renewing your home
+          </p>
+        </div>
+
+        <!-- Blog Grid -->
+        <div class="row gy-5 gx-4">
+          <!-- Article 1 -->
+          <div class="col-md-6 col-lg-4">
+            <article class="blog-card d-flex flex-column">
+              <a
+                href="#"
+                class="position-relative d-block overflow-hidden blog-img-wrapper"
+              >
+                <img
+                  src="https://cdn.salla.sa/zKxdl/88f46507-3527-4ef6-8f5c-e0c42ca2b4a4-705.78512396694x1000-ANZN74EeTe1WlDFQ33SMi1b8JrDVt8YzNe2tHTQo.png"
+                  alt="Smart Locks"
+                  class="img-fluid blog-img"
+                />
+              </a>
+
+              <div class="mt-4">
+                <div
+                  class="d-flex align-items-center gap-3 small text-muted mb-2"
+                >
+                  <time datetime="2025-08-24">24 Aug 2025</time>
+                  <a
+                    href="#"
+                    class="badge bg-light text-dark px-3 py-2 rounded-pill text-decoration-none tag-hover"
+                    >اقفال ذكية</a
+                  >
+                </div>
+
+                <h5 class="fw-semibold lh-sm mt-2 blog-title">
+                  <a
+                    href="#"
+                    class="text-dark text-decoration-none blog-title-link stretched-link"
+                    >ليش تحتاج اقفال ذكية داخل منزلك؟</a
+                  >
+                </h5>
+                <p class="text-muted small mt-2">
+                  ودع كومة المفاتيح مع قفل بدون مفتاح
+                </p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <div
+                    class="rounded-circle bg-light d-flex align-items-center justify-content-center me-3"
+                    style="width: 40px; height: 40px"
+                  >
+                    <i class="bi bi-person text-secondary"></i>
+                  </div>
+                  <div class="small">
+                    <div class="text-muted">الكاتب</div>
+                    <strong>Munirah</strong>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Article 2 -->
+          <div class="col-md-6 col-lg-4">
+            <article class="blog-card d-flex flex-column">
+              <a
+                href="#"
+                class="position-relative d-block overflow-hidden blog-img-wrapper"
+              >
+                <img
+                  src="https://cdn.salla.sa/zKxdl/144c2d05-9640-453e-833b-8c5e135da37b-1000x1000-9Q2kVr6uQGzc9NyPXaRr8YmQh9a4IUpEAmX1c14Y.png"
+                  alt="Renew Bathroom"
+                  class="img-fluid blog-img"
+                />
+              </a>
+
+              <div class="mt-4">
+                <div
+                  class="d-flex align-items-center gap-3 small text-muted mb-2"
+                >
+                  <time datetime="2024-09-09">09 Sep 2024</time>
+                </div>
+
+                <h5 class="fw-semibold lh-sm mt-2 blog-title">
+                  <a
+                    href="#"
+                    class="text-dark text-decoration-none blog-title-link stretched-link"
+                    >Different ways and simple ideas to renew your bathroom</a
+                  >
+                </h5>
+                <p class="text-muted small mt-2">
+                  Make your bathroom renovation a smooth and unique experience.
+                </p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <div
+                    class="rounded-circle bg-light d-flex align-items-center justify-content-center me-3"
+                    style="width: 40px; height: 40px"
+                  >
+                    <i class="bi bi-person text-secondary"></i>
+                  </div>
+                  <div class="small">
+                    <div class="text-muted">الكاتب</div>
+                    <strong>حمد الجعيدي</strong>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+
+          <!-- Article 3 -->
+          <div class="col-md-6 col-lg-4">
+            <article class="blog-card d-flex flex-column">
+              <a
+                href="#"
+                class="position-relative d-block overflow-hidden blog-img-wrapper"
+              >
+                <img
+                  src="https://cdn.salla.sa/zKxdl/11d791e4-c35f-4931-8af3-29d3b5d46c96-1000x1000-KetvX37O4EfAb4MHhHR0PFxswgeWNupymAq9DIWK.png"
+                  alt="Tile Design Tips"
+                  class="img-fluid blog-img"
+                />
+              </a>
+
+              <div class="mt-4">
+                <div
+                  class="d-flex align-items-center gap-3 small text-muted mb-2"
+                >
+                  <time datetime="2024-09-09">09 Sep 2024</time>
+                </div>
+
+                <h5 class="fw-semibold lh-sm mt-2 blog-title">
+                  <a
+                    href="#"
+                    class="text-dark text-decoration-none blog-title-link stretched-link"
+                    >Tile Design Tips and Ideas</a
+                  >
+                </h5>
+                <p class="text-muted small mt-2">
+                  Learn the secrets to designing the perfect flooring!
+                </p>
+
+                <div class="d-flex align-items-center mt-4">
+                  <div
+                    class="rounded-circle bg-light d-flex align-items-center justify-content-center me-3"
+                    style="width: 40px; height: 40px"
+                  >
+                    <i class="bi bi-person text-secondary"></i>
+                  </div>
+                  <div class="small">
+                    <div class="text-muted">الكاتب</div>
+                    <strong>حمد الجعيدي</strong>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <!-- View All Button -->
+        <div class="mt-5 text-center btn-view-all">
+          <a
+            href="#"
+            class="btn-view-all d-inline-flex align-items-center gap-2"
+          >
+            <span>View all</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              viewBox="0 0 32 32"
+            >
+              <g
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linejoin="round"
+                stroke-miterlimit="10"
+              >
+                <circle cx="16" cy="16" r="15.12"></circle>
+                <path d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ----- Brands Slider Sections---------- -->
+
+    <section class="brands-section py-5">
+      <div class="px-lg-5 text-center">
+        <!-- Section Title -->
+        <div class="mb-5">
+          <span class="fw-bold d-inline-block mb-2 text-primary-custom small">
+            Local and International
+          </span>
+          <h2 class="fw-semibold mb-3">Browse All Brands</h2>
+          <p class="text-muted mb-4">
+            A Wide Range of Local and International Brands
+          </p>
+        </div>
+
+        <!-- Marquee Slider -->
+        <div class="marquee position-relative overflow-hidden">
+          <ul
+            class="marquee-content list-unstyled d-flex align-items-center mb-0"
+          >
+            <!-- Repeat brand logos -->
+            <li class="mx-4">
+              <a href="#">
+                <img
+                  src="https://cdn.salla.sa/zKxdl/tIh7uQC11PU7eTJmGvYzLNYalRlBl9ATLGBbH6BH.png"
+                  alt="Colorker"
+                  class="brand-img"
+                />
+              </a>
+            </li>
+            <li class="mx-4">
+              <a href="#">
+                <img
+                  src="https://cdn.salla.sa/zKxdl/kN04smGmger4hvOH7ptw3FGvpoG7wytWS3Uq0vq4.png"
+                  alt="Mykonos"
+                  class="brand-img"
+                />
+              </a>
+            </li>
+            <li class="mx-4">
+              <a href="#">
+                <img
+                  src="https://cdn.salla.sa/zKxdl/7M0tPACh6war2PlTQC6qlVVSeQiAHXDa9fy6lHGW.png"
+                  alt="Mayolica"
+                  class="brand-img"
+                />
+              </a>
+            </li>
+            <li class="mx-4">
+              <a href="#">
+                <img
+                  src="https://cdn.salla.sa/zKxdl/scoIWgA3JvFhkImbVfLS3AMLg4tNnouUeMlD0VPH.png"
+                  alt="Argentina"
+                  class="brand-img"
+                />
+              </a>
+            </li>
+            <li class="mx-4">
+              <a href="#">
+                <img
+                  src="https://cdn.salla.sa/zKxdl/ReDBTKzHz8tJhtTHvUQFx4m4E6inp1bvwDBCOuIe.png"
+                  alt="Living Ceramics"
+                  class="brand-img"
+                />
+              </a>
+            </li>
+            <!-- Duplicate content for smooth infinite scroll -->
+          </ul>
+          <ul
+            class="marquee-content list-unstyled d-flex align-items-center mb-0"
+            aria-hidden="true"
+          >
+            <li class="mx-4">
+              <a href="#">
+                <img
+                  src="https://cdn.salla.sa/zKxdl/tIh7uQC11PU7eTJmGvYzLNYalRlBl9ATLGBbH6BH.png"
+                  alt="Colorker"
+                  class="brand-img"
+                />
+              </a>
+            </li>
+            <li class="mx-4">
+              <a href="#">
+                <img
+                  src="https://cdn.salla.sa/zKxdl/kN04smGmger4hvOH7ptw3FGvpoG7wytWS3Uq0vq4.png"
+                  alt="Mykonos"
+                  class="brand-img"
+                />
+              </a>
+            </li>
+            <li class="mx-4">
+              <a href="#">
+                <img
+                  src="https://cdn.salla.sa/zKxdl/7M0tPACh6war2PlTQC6qlVVSeQiAHXDa9fy6lHGW.png"
+                  alt="Mayolica"
+                  class="brand-img"
+                />
+              </a>
+            </li>
+            <li class="mx-4">
+              <a href="#">
+                <img
+                  src="https://cdn.salla.sa/zKxdl/scoIWgA3JvFhkImbVfLS3AMLg4tNnouUeMlD0VPH.png"
+                  alt="Argentina"
+                  class="brand-img"
+                />
+              </a>
+            </li>
+            <li class="mx-4">
+              <a href="#">
+                <img
+                  src="https://cdn.salla.sa/zKxdl/ReDBTKzHz8tJhtTHvUQFx4m4E6inp1bvwDBCOuIe.png"
+                  alt="Living Ceramics"
+                  class="brand-img"
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- View All Button -->
+        <div class="mt-5">
+          <a
+            href="#"
+            class="btn-view-all d-inline-flex align-items-center gap-2"
+          >
+            <span>View all</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="26"
+              height="26"
+              viewBox="0 0 32 32"
+            >
+              <g
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linejoin="round"
+                stroke-miterlimit="10"
+              >
+                <circle cx="16" cy="16" r="15.12"></circle>
+                <path d="M16.14 9.93L22.21 16l-6.07 6.07M8.23 16h13.98"></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!------- testominal Section----- -->
+    <section
+      id="related-products"
+      class="related-products product-carousel py-5 position-relative overflow-hidden"
+    >
+      <!-- Removed old Owl Carousel markup (was duplicated). Swiper-based slider below is used to show testimonials. -->
+      <div class="container">
+        <div
+          class="d-flex flex-wrap justify-content-between align-items-center mt-5 mb-3"
+        ></div>
+        <div class="swiper product-swiper open-up" data-aos="zoom-out">
+          <div class="swiper-wrapper d-flex">
+            <div class="swiper-slide">
+              <div class="product-item image-zoom-effect link-effect">
+                <div class="testimonial-card">
+                  <div class="testimonial-rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <span>5.0</span>
+                  </div>
+                  <p class="lead mb-3">خدمة ممتازة وسرعة في التوصيل!</p>
+                  <div class="testimonial-footer">
+                    <img
+                      src="https://cdn.assets.salla.network/prod/stores/themes/default/assets/images/avatar_male.png"
+                      alt="حسن العبدالله"
+                      class="rounded-circle"
+                      width="50"
+                      height="50"
+                    />
+                    <div class="text-start">
+                      <div class="fw-semibold">حسن العبدالله</div>
+                      <small class="text-muted">الظهران</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item image-zoom-effect link-effect">
+                <div class="testimonial-card">
+                  <div class="testimonial-rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <span>5.0</span>
+                  </div>
+                  <p class="lead mb-3">
+                    جودة المنتجات رائعة جداً وأنصح الجميع بالشراء.
+                  </p>
+                  <div class="testimonial-footer">
+                    <img
+                      src="https://cdn.assets.salla.network/prod/stores/themes/default/assets/images/avatar_female.png"
+                      alt="مها ابراهيم"
+                      class="rounded-circle"
+                      width="50"
+                      height="50"
+                    />
+                    <div class="text-start">
+                      <div class="fw-semibold">مها ابراهيم</div>
+                      <small class="text-muted">الرس</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item image-zoom-effect link-effect">
+                <div class="testimonial-card">
+                  <div class="testimonial-rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <span>5.0</span>
+                  </div>
+                  <p class="lead mb-3">تعامل راقي وتغليف ممتاز، شكراً لكم!</p>
+                  <div class="testimonial-footer">
+                    <img
+                      src="https://cdn.assets.salla.network/prod/stores/themes/default/assets/images/avatar_female.png"
+                      alt="سهام العتيبي"
+                      class="rounded-circle"
+                      width="50"
+                      height="50"
+                    />
+                    <div class="text-start">
+                      <div class="fw-semibold">سهام العتيبي</div>
+                      <small class="text-muted">الطائف</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item image-zoom-effect link-effect">
+                <div class="testimonial-card">
+                  <div class="testimonial-rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <span>5.0</span>
+                  </div>
+                  <p class="lead mb-3">
+                    أفضل تجربة تسوق أونلاين! كل شيء كان رائعاً.
+                  </p>
+                  <div class="testimonial-footer">
+                    <img
+                      src="https://cdn.assets.salla.network/prod/stores/themes/default/assets/images/avatar_male.png"
+                      alt="يوسف الصبحي"
+                      class="rounded-circle"
+                      width="50"
+                      height="50"
+                    />
+                    <div class="text-start">
+                      <div class="fw-semibold">يوسف الصبحي</div>
+                      <small class="text-muted">ينبع</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="product-item image-zoom-effect link-effect">
+                <div class="testimonial-card">
+                  <div class="testimonial-rating">
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <span>5.0</span>
+                  </div>
+                  <p class="lead mb-3">
+                    جودة المنتجات رائعة جداً وأنصح الجميع بالشراء.
+                  </p>
+                  <div class="testimonial-footer">
+                    <img
+                      src="https://cdn.assets.salla.network/prod/stores/themes/default/assets/images/avatar_female.png"
+                      alt="مها ابراهيم"
+                      class="rounded-circle"
+                      width="50"
+                      height="50"
+                    />
+                    <div class="text-start">
+                      <div class="fw-semibold">مها ابراهيم</div>
+                      <small class="text-muted">الرس</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="icon-arrow icon-arrow-left">
+          <svg width="50" height="50" viewBox="0 0 24 24">
+            <use xlink:href="#arrow-left"></use>
+          </svg>
+        </div>
+        <div class="icon-arrow icon-arrow-right">
+          <svg width="50" height="50" viewBox="0 0 24 24">
+            <use xlink:href="#arrow-right"></use>
+          </svg>
+        </div>
+      </div>
+    </section>
+    <!-- websites categories -->
+    <section class="s-block s-block--cats-list s-block--anime py-5">
+      <div class="px-0 px-lg-5">
+        <div
+          class="cats-list-wrap px-4 py-4 p-md-5 p-lg-5 bg-light position-relative"
+        >
+          <div class="s-block__title position-relative mb-4">
+            <div class="right-side">
+              <h2 class="mb-4 fw-bold text-center">Website Categories List</h2>
+            </div>
+          </div>
+
+          <div class="cats-list row g-4 g-lg-5 mt-4">
+            <!-- Category item -->
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="cats-list__item-inner">
+                <a
+                  href="https://build-station.com/en/hatch-products/c1662252348"
+                  title="Sanitary Ware"
+                  class="d-inline-block mb-2 fs-5 fw-semibold text-dark text-decoration-none"
+                >
+                  Sanitary Ware
+                </a>
+                <ul class="list-unstyled mb-2">
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Sinks &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Mixers</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Toilet Seats &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Bidets &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Shower Accessories</a
+                    >
+                  </li>
+                </ul>
+                <div class="opacity-70 small mt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-underline text-secondary hover-no-underline"
+                    >View all</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Category item -->
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="cats-list__item-inner">
+                <a
+                  href="https://build-station.com/en/hatch-products/c1662252348"
+                  title="Sanitary Ware"
+                  class="d-inline-block mb-2 fs-5 fw-semibold text-dark text-decoration-none"
+                >
+                  Lighting
+                </a>
+                <ul class="list-unstyled mb-2">
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Sinks &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Mixers</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Toilet Seats &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Bidets &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Shower Accessories</a
+                    >
+                  </li>
+                </ul>
+                <div class="opacity-70 small mt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-underline text-secondary hover-no-underline"
+                    >View all</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Category item -->
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="cats-list__item-inner">
+                <a
+                  href="https://build-station.com/en/hatch-products/c1662252348"
+                  title="Sanitary Ware"
+                  class="d-inline-block mb-2 fs-5 fw-semibold text-dark text-decoration-none"
+                >
+                  Cleaning & Protection
+                </a>
+                <ul class="list-unstyled mb-2">
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Sinks &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Mixers</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Toilet Seats &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Bidets &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Shower Accessories</a
+                    >
+                  </li>
+                </ul>
+                <div class="opacity-70 small mt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-underline text-secondary hover-no-underline"
+                    >View all</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Category item -->
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="cats-list__item-inner">
+                <a
+                  href="https://build-station.com/en/hatch-products/c1662252348"
+                  title="Sanitary Ware"
+                  class="d-inline-block mb-2 fs-5 fw-semibold text-dark text-decoration-none"
+                >
+                  Water Solutions
+                </a>
+                <ul class="list-unstyled mb-2">
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Sinks &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Mixers</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Toilet Seats &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Bidets &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Shower Accessories</a
+                    >
+                  </li>
+                </ul>
+                <div class="opacity-70 small mt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-underline text-secondary hover-no-underline"
+                    >View all</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Category item -->
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="cats-list__item-inner">
+                <a
+                  href="https://build-station.com/en/hatch-products/c1662252348"
+                  title="Sanitary Ware"
+                  class="d-inline-block mb-2 fs-5 fw-semibold text-dark text-decoration-none"
+                >
+                  Smart Life
+                </a>
+                <ul class="list-unstyled mb-2">
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Sinks &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Mixers</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Toilet Seats &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Bidets &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Shower Accessories</a
+                    >
+                  </li>
+                </ul>
+                <div class="opacity-70 small mt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-underline text-secondary hover-no-underline"
+                    >View all</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <!-- Category item -->
+            <div class="col-6 col-md-4 col-lg-3">
+              <div class="cats-list__item-inner">
+                <a
+                  href="https://build-station.com/en/hatch-products/c1662252348"
+                  title="Sanitary Ware"
+                  class="d-inline-block mb-2 fs-5 fw-semibold text-dark text-decoration-none"
+                >
+                  Building Materials
+                </a>
+                <ul class="list-unstyled mb-2">
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Sinks &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Mixers</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Toilet Seats &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Bidets &amp; Accessories</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="d-inline-block text-dark text-decoration-none hover-underline"
+                      >Shower Accessories</a
+                    >
+                  </li>
+                </ul>
+                <div class="opacity-70 small mt-1">
+                  <a
+                    href="#"
+                    class="text-decoration-underline text-secondary hover-no-underline"
+                    >View all</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- -------Map Sections--------- -->
+    <section class="s-block s-block--anime s-block--map overflow-hidden mb-5">
+      <div class="container p-0 mt-5">
+        <div class="s-block__title position-relative">
+          <div class="right-side">
+            <span
+              class="fw-bold d-inline-block mb-3 text-center w-100 text-primary-custom"
+              >We Are Here</span
+            >
+            <h2 class="mb-5 text-center">How can we help you?</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="position-relative px-0 px-lg-4 rounded">
+        <div
+          class="map-wrapper position-relative overflow-hidden"
+          style="background-color: #fdf5e6"
+        >
+          <iframe
+            class="map-iframe"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3624.99684232604!2d46.669456476182305!3d24.692635278039234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f03632109e809%3A0xc6c9053b7f5f0865!2zQnVpbGQgU3RhdGlvbiAtINmF2K3Yt9ipINin2YTYqNmG2KfYoSDYp9mE2KrYrti12LXZig!5e0!3m2!1sen!2ssa!4v1733387081092!5m2!1sen!2ssa"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+
+        <div
+          class="contact-card position-absolute bg-white shadow d-flex align-items-center p-2 p-lg-4"
+        >
+          <ul class="row g-4 w-100 list-unstyled mb-0">
+            <li class="col-md-6 col-xl-4 d-flex align-items-center gap-3">
+              <div
+                class="icon-wrapper d-flex justify-content-center align-items-center"
+              >
+                <i class="bi bi-envelope-fill opacity-75"></i>
+              </div>
+              <div>
+                <h3 class="text-muted small mb-1">Email</h3>
+                <strong class="fs-5">customer-care@marketing-home.com</strong>
+              </div>
+            </li>
+
+            <li class="col-md-6 col-xl-4 d-flex align-items-center gap-3">
+              <div
+                class="icon-wrapper d-flex justify-content-center align-items-center"
+              >
+                <i class="bi bi-telephone-fill opacity-75"></i>
+              </div>
+              <div>
+                <h3 class="text-muted small mb-1">Call us</h3>
+                <strong class="fs-5">8001222230</strong>
+              </div>
+            </li>
+
+            <li class="col-md-6 col-xl-4 d-flex align-items-center gap-3">
+              <div
+                class="icon-wrapper d-flex justify-content-center align-items-center"
+              >
+                <i class="bi bi-geo-alt-fill opacity-75"></i>
+              </div>
+              <div>
+                <h3 class="text-muted small mb-1">Build Station Stores</h3>
+                <strong class="fs-5">Al-Takhasusi Street, Riyadh</strong>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-auto pt-5 pb-4 bg-light mt-5">
+      <div class="container-fluid px-4">
+        <div class="text-center mb-5">
+          <a href="#" class="d-inline-block mb-4">
+            <img
+              src="https://cdn.salla.sa/cdn-cgi/image/fit=scale-down,width=400,height=400,onerror=redirect,format=auto/zKxdl/tfuKyIKMVl2P1cdRqS4rXaJYTOLoybOdYgDI4Gjk.png"
+              alt="Home Marketing Trading Group"
+              height="42"
+              class="img-fluid"
+              style="max-height: 42px"
+            />
+          </a>
+          <p class="lead">Your destination to build your world 🤍</p>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="d-flex justify-content-center gap-4 mb-5">
+          <a
+            href="tel:8001222230"
+            class="d-flex align-items-center text-decoration-none text-dark"
+            target="_blank"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center border rounded-circle me-2"
+              style="height: 2rem; width: 2rem"
+            >
+              <i class="bi bi-telephone"></i>
+            </div>
+            <span>8001222230</span>
+          </a>
+
+          <a
+            href="mailto:customer-care@marketing-home.com"
+            class="d-flex align-items-center text-decoration-none text-dark"
+            target="_blank"
+          >
+            <div
+              class="d-flex justify-content-center align-items-center border rounded-circle me-2"
+              style="height: 2rem; width: 2rem"
+            >
+              <i class="bi bi-envelope"></i>
+            </div>
+            <span>customer-care@marketing-home.com</span>
+          </a>
+        </div>
+
+        <!-- Social Links -->
+        <div class="row">
+          <div class="col-sm-3 d-flex">
+            <div class="d-flex gap-3 mb-4">
+              <div
+                class="d-flex justify-content-center align-items-center border rounded-circle"
+                style="height: 2rem; width: 2rem"
+              >
+                <a
+                  href="#"
+                  class="text-dark fs-5"
+                  target="_blank"
+                  aria-label="Instagram"
+                >
+                  <i
+                    class="fa-brands fa-instagram"
+                    style="color: rgba(82, 81, 81, 0.623); font-size: 1.2rem"
+                  ></i>
+                </a>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center border rounded-circle"
+                style="height: 2rem; width: 2rem"
+              >
+                <a
+                  href="#"
+                  class="text-dark fs-5"
+                  target="_blank"
+                  aria-label="Twitter"
+                >
+                  <i
+                    class="fa-brands fa-x-twitter"
+                    style="color: rgba(82, 81, 81, 0.623); font-size: 1.2rem"
+                  ></i>
+                </a>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center border rounded-circle"
+                style="height: 2rem; width: 2rem"
+              >
+                <a
+                  href="#"
+                  class="text-dark fs-5"
+                  target="_blank"
+                  aria-label="TikTok"
+                >
+                  <i
+                    class="fa-brands fa-tiktok"
+                    style="color: rgba(82, 81, 81, 0.623); font-size: 1.2rem"
+                  ></i>
+                </a>
+              </div>
+              <div
+                class="d-flex justify-content-center align-items-center border rounded-circle"
+                style="height: 2rem; width: 2rem"
+              >
+                <a
+                  href="#"
+                  class="text-dark fs-5"
+                  target="_blank"
+                  aria-label="Facebook"
+                >
+                  <i
+                    class="fa-brands fa-facebook-f"
+                    style="color: rgba(82, 81, 81, 0.623); font-size: 1.2rem"
+                  ></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <div class="d-flex justify-content-center flex-wrap gap-3 mb-4">
+              <a href="#" class="text-decoration-none text-dark small"
+                >Who we are</a
+              >
+              <a href="#" class="text-decoration-none text-dark small"
+                >Privacy Policy</a
+              >
+              <a href="#" class="text-decoration-none text-dark small"
+                >Terms and Conditions</a
+              >
+              <a href="#" class="text-decoration-none text-dark small"
+                >Design and ideas</a
+              >
+              <a href="#" class="text-decoration-none text-dark small"
+                >Tips and advice</a
+              >
+              <a href="#" class="text-decoration-none text-dark small"
+                >Our projects</a
+              >
+              <a href="#" class="text-decoration-none text-dark small">FAQ</a>
+              <a href="#" class="text-decoration-none text-dark small"
+                >ترخيص التخفيضات</a
+              >
+            </div>
+          </div>
+          <div
+            class="col-sm-2 d-flex justify-content-center justify-content-sm-center"
+          >
+            <div
+              class="p-1 d-flex justify-content-center align-items-center"
+              style="width: fit-content"
+            >
+              <button
+                class="btn btn-sm btn-outline-dark text-uppercase dropdown-toggle rounded-0"
+                id="languageDropdown"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#languageOffcanvas"
+              >
+                Language
+              </button>
+            </div>
+          </div>
+
+          <!-- Footer Links -->
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="border-top pt-4">
+          <div class="row align-items-center">
+            <!-- VAT Info -->
+            <div class="col-lg-4 mb-3 mb-lg-0">
+              <div class="d-flex align-items-center gap-2">
+                <img
+                  src="https://cdn.salla.network/images/tax.png?v=2.0.5"
+                  alt="VAT"
+                  height="40"
+                />
+                <div>
+                  <small class="text-muted d-block">VAT Account Number</small>
+                  <strong>311066049600003</strong>
+                </div>
+              </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="col-lg-4 mb-3 mb-lg-0 text-center" id="copyright">
+              <p class="text-muted mb-0">
+                Copyright © 2025
+                <a
+                  href="https://build-station.com/en"
+                  class="text-decoration-none text-muted"
+                  >Home Marketing Trading Group</a
+                >
+              </p>
+            </div>
+
+            <!-- Payment Methods -->
+            <div class="col-lg-4">
+              <div
+                class="d-flex justify-content-center justify-content-lg-end gap-2"
+              >
+                <div class="bg-white p-1">
+                  <img
+                    src="https://cdn.salla.network/images/payment/mada_mini.png?v=2.0.5"
+                    alt="mada"
+                    height="24"
+                  />
+                </div>
+                <div class="bg-white p-1">
+                  <img
+                    src="https://cdn.salla.network/images/payment/credit_card_mini.png?v=2.0.5"
+                    alt="credit card"
+                    height="24"
+                  />
+                </div>
+                <div class="bg-white p-1">
+                  <img
+                    src="https://cdn.salla.network/images/payment/bank_mini.png?v=2.0.5"
+                    alt="bank"
+                    height="24"
+                  />
+                </div>
+                <div class="bg-white p-1">
+                  <img
+                    src="https://cdn.salla.network/images/payment/apple_pay_mini.png?v=2.0.5"
+                    alt="apple pay"
+                    height="24"
+                  />
+                </div>
+                <div class="bg-white p-1">
+                  <img
+                    src="https://cdn.salla.network/images/payment/tabby_installment_mini.png?v=2.0.5"
+                    alt="tabby"
+                    height="24"
+                  />
+                </div>
+                <div class="bg-white p-1">
+                  <img
+                    src="https://cdn.salla.network/images/payment/tamara_installment_mini.png?v=2.0.5"
+                    alt="tamara"
+                    height="24"
+                  />
+                </div>
+                <div class="bg-white p-1">
+                  <img
+                    src="https://cdn.salla.network/images/payment/cod_mini.png?v=2.0.5"
+                    alt="cod"
+                    height="24"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/plugin.js"></script>
+    <script src="js/SmoothScroll.js"></script>
+    <script>
+      function setLanguage(lang) {
+        if (lang === "en") {
+          alert("Language switched to English");
+          // Add your real language-switch logic here
+        } else if (lang === "ar") {
+          alert("تم تغيير اللغة إلى العربية");
+          // Add your real Arabic language-switch logic here
+        }
+      }
+    </script>
+    <script>
+      // Smooth navbar color transition
+      window.addEventListener("scroll", () => {
+        const navbar = document.querySelector(".navbar");
+        navbar.classList.toggle("navbar-colored", window.scrollY > 100);
+        navbar.classList.toggle("navbar-transparent", window.scrollY <= 100);
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="js/script.min.js"></script>
+    <script src="js/lang-switcher.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        loop: true,
+        grabCursor: true,
+        mousewheel: true,
+        breakpoints: {
+          320: { slidesPerView: 1.2 },
+          768: { slidesPerView: 2.2 },
+          992: { slidesPerView: 3.2 },
+          1200: { slidesPerView: 4.3 },
+        },
+      });
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          600: {
+            items: 3,
+          },
+          1000: {
+            items: 5,
+          },
+        },
+      });
+
+      // Explicit initialization for Testimonials Swiper (inside #related-products)
+      try {
+        new Swiper("#related-products .swiper", {
+          slidesPerView: 3,
+          spaceBetween: 20,
+          loop: true,
+          navigation: {
+            nextEl: "#related-products .icon-arrow-right",
+            prevEl: "#related-products .icon-arrow-left",
+          },
+          pagination: {
+            el: "#related-products .swiper-pagination",
+            clickable: true,
+          },
+          breakpoints: {
+            320: { slidesPerView: 1 },
+            576: { slidesPerView: 1 },
+            768: { slidesPerView: 2 },
+            992: { slidesPerView: 3 },
+          },
+        });
+      } catch (e) {
+        console.warn("Testimonial swiper init failed:", e);
+      }
+    </script>
+    <script>
+      document
+        .querySelectorAll(".dropdown-toggle")
+        .forEach((dropdownToggleEl) => {
+          dropdownToggleEl.addEventListener("click", function (e) {
+            e.preventDefault();
+            const dropdown = new bootstrap.Dropdown(this);
+            dropdown.toggle();
+          });
+        });
+    </script>
+    <script>
+      // Initialize Swiper
+      document.addEventListener("DOMContentLoaded", function () {
+        const swiper = new Swiper(".s-slider-container", {
+          // Configuration options
+          freeMode: {
+            enabled: true,
+            sticky: false,
+            momentumBounce: false,
+          },
+          mousewheel: {
+            enabled: true,
+            forceToAxis: true,
+          },
+          scrollbar: {
+            el: ".swiper-scrollbar",
+            draggable: true,
+          },
+          slidesPerView: "auto",
+          spaceBetween: 16,
+          navigation: {
+            nextEl: ".s-slider-next",
+            prevEl: ".s-slider-prev",
+          },
+          breakpoints: {
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 2,
+              spaceBetween: 24,
+            },
+          },
+        });
+
+        // Add product to cart functionality
+        document
+          .querySelectorAll(".btn--add-to-cart--full button")
+          .forEach((button) => {
+            button.addEventListener("click", function () {
+              const productId =
+                this.closest("form").querySelector('input[name="id"]').value;
+              alert(`Product ${productId} added to cart!`);
+              // In a real implementation, you would make an API call here
+            });
+          });
+
+        // Wishlist functionality
+        document.querySelectorAll(".btn--wishlist").forEach((button) => {
+          button.addEventListener("click", function () {
+            const productId = this.getAttribute("data-id");
+            const isFavorited = this.classList.contains("favorited");
+
+            if (isFavorited) {
+              this.classList.remove("favorited");
+              this.classList.add("un-favorited");
+              this.querySelector("i").classList.remove("fa-solid");
+              this.querySelector("i").classList.add("fa-regular");
+              alert(`Product ${productId} removed from wishlist!`);
+            } else {
+              this.classList.remove("un-favorited");
+              this.classList.add("favorited");
+              this.querySelector("i").classList.remove("fa-regular");
+              this.querySelector("i").classList.add("fa-solid");
+              alert(`Product ${productId} added to wishlist!`);
+            }
+          });
+        });
+
+        // Quick view functionality
+        document
+          .querySelectorAll(".product-popup-trigger")
+          .forEach((button) => {
+            button.addEventListener("click", function () {
+              const productId = this.getAttribute("data-product-id");
+              alert(`Quick view for product ${productId}`);
+              // In a real implementation, you would show a modal with product details
+            });
+          });
+
+        // Initialize the new Products slider on the page
+        try {
+          const productsSwiper = new Swiper(".products-slider-swiper", {
+            slidesPerView: 1,
+            spaceBetween: 16,
+            loop: true,
+            pagination: {
+              el: ".products-slider-swiper .swiper-pagination",
+              clickable: true,
+            },
+            navigation: {
+              nextEl: ".products-next",
+              prevEl: ".products-prev",
+            },
+            breakpoints: {
+              768: { slidesPerView: 2 },
+              992: { slidesPerView: 2 },
+            },
+          });
+        } catch (e) {
+          console.warn("Products slider init failed", e);
+        }
+      });
+    </script>
+  </body>
+</html>
